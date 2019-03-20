@@ -47,7 +47,7 @@ var gameStart = function (){
     // A target score is set between 19-20
     targetScore = randomNumber(19, 120);
     // Randomly generate different values for each crystal
-    crystal.water.value = randomNumber(1,12);
+    crystal.water.value = randomNumber(1, 12);
     crystal.fire.value = randomNumber(1, 12);
     crystal.leaf.value = randomNumber(1, 12);
     crystal.sun.value = randomNumber(1, 12);
