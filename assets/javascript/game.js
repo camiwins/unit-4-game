@@ -54,12 +54,6 @@ var gameStart = function (){
     // Display all these changes to the HTML page
     $("#yourScore").html(currentScore);
     $("#targetScore").html(targetScore);
-
-    // Testing
-    console.log("--------------")
-    console.log("Target Score: " + targetScore);
-    console.log("Water: " + crystal.water.value + " | Fire: " + crystal.fire.value + " | Leaf: " + crystal.leaf.value + " | Sun: " + crystal.sun.value)
-    console.log("--------------")
 }
 
 //  Function for updating the currents core
