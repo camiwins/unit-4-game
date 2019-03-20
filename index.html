@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>CLP - Crystal Collector Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <!-- JUMBOTRON -->
+        <div class="jumbotron" style="background-color:	#8392A5; color:#fff">
+            <h1 class="text-center">Crystal Collector</h1>
+        </div>
+
+        <!-- FIRST ROW -->
+        <div class="row">
+            <!-- INSTRUCTIONS -->
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header" style="background-color:#8392A5">Instructions</div>
+                    <div class="card-body">
+                        <h5 class="card-title">How to Play</h5>
+                        <p class="card-text">Match the target score by clicking on the Pokemon Badges below. If your score is higher than the target number, you lose. Each Pokemon Badge will reset when a new number is chosen.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- TARGET SCORE -->
+            <div class="col-sm-6">
+                <div class="card h-100">
+                    <div class="card-header text-center" style="background-color:#B66260">Target Score</div>
+                    <div class="card-body">
+                        <h1 class="display-1 text-center" id="targetScore">0</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCORE CARD -->
+        <div class="row mt-4">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">Wins</div>
+                    <div class="card-body">
+                        <h1 class="display-1 text-center" id="win">0</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- WINS -->
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">Losses</div>
+                    <div class="card-body">
+                        <h1 class="display-1 text-center" id="loss">0</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- LOSSES -->
+            <div class="col-sm-6">
+                <div class="card h-100">
+                    <div class="card-header text-center" style="background-color:#F1D554">Your Score</div>
+                    <div class="card-body">
+                        <h1 class="display-1 text-center" id="yourScore">0</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- YOUR SCORE -->
+        <div class="row mt-4">
+            <div class="col-sm-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="assets/images/water-s.gif" class="rounded float-center mr-5 " alt="..." id="water">
+                        <img src="assets/images/fire-s.gif" class="rounded float-center mr-5" alt="..." id="fire">
+                        <img src="assets/images/leaf-s.gif" class="rounded float-center mr-5" alt="..." id="leaf">
+                        <img src="assets/images/sun-s.gif" class="rounded float-center" alt="..." id="sun">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+            
+        <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
